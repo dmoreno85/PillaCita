@@ -1,0 +1,200 @@
+* {
+  text-decoration: none !important;
+}
+
+.is-active {
+  color: white;
+
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0.5em;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinkDrop {
+  color: black;
+  text-decoration: none;
+}
+
+.navLinkFooter {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background: black;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.header h1 {
+  color: white;
+  font-size: 2em;
+}
+
+.map {
+  height: 352px;
+  width: 79vh;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 14px 5px 6px rgba(0, 0, 0, 0.75);
+}
+
+.divMap {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(76, 194, 76);
+  justify-content: space-around;
+  height: 75px;
+  align-items: center;
+  font-size: 1em;
+}
+
+.RedesSociales i {
+
+  color: white;
+
+  min-width: 40px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.face {
+
+  /* background-size: cover; */
+
+  background: RGB(45, 75, 127);
+}
+
+.twitter {
+
+  /* background-size: cover; */
+
+  background: RGB(48, 156, 194);
+
+}
+
+.whatsapp {
+
+  /* background-size: cover; */
+
+  background: RGB(75, 174, 62);
+
+}
+
+.instagram {
+
+  /* background-size: cover; */
+
+  background: RGB(61, 97, 166);
+
+}
+
+.youtube {
+
+  /* background-size: cover; */
+
+  background: RGB(230, 42, 40);
+
+}
+
+.calendar {
+  overflow: auto;
+  box-shadow: 10px 14px 5px 6px rgba(0, 0, 0, 0.75);
+
+}
+
+.iconUser {
+  color: white;
+  position: relative;
+  margin-right:0.5em; 
+}
+
+.prueba {
+  background: red;
+  width: 50px;
+  height: 100px;
+  display: none;
+}
+
+.prueba:hover {
+  background: red;
+  width: 50px;
+  height: 100px;
+  display: inline-block;
+}
+
+.isLoggedIn {
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  right: 1px;
+  border: solid 1px gray;
+}
+
+.isNotLoggedIn{
+  position: absolute;
+  background-color: white;
+  border-radius: 6px;
+  right: 1px;
+  border: solid 1px gray;  
+}
+
+.drop {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.closeBackground{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+ 
+}
+.citaBack{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+ 
+  background-color: RGB(45, 75, 127);
+}
+
+.citaPopUp{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+ 
+  height: 250px;
+  width: 300px;
+background-color: rgb(187, 187, 187);
+}
